@@ -1,14 +1,17 @@
-import Header from "./components/Hader/Header";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 import { Route, Routes } from 'react-router-dom';
-import styles from './App.module.css'
 
 function App() {
   return (
-    <div className={styles.bodyWrapper}>
+    <div>
       <Header/>
       <main>
-
+        <Routes>
+          
+        </Routes>
       </main>
+      <Footer/>
     </div>
   );
 }

@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+footer {
+  background: #101010;
+}
+
+.footerWrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 75px;
+}
+
+.leftSection, .rightSection {
+  width: 50%;
+}
+
+.logoWrapper {
+  margin-bottom: 36px;
+}
+
+.logoWrapper img {
+  padding-top: 14px;
+}
+
+.footerText {
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 56px;
+}
+
+.copyright, .footerText {
+  color: #878787;
+  margin-bottom: 48px;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 25px;
+  letter-spacing: 2px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin-bottom: 105px;
+}
+
+.menu a {
+  color: #fff;
+  margin-right: 34px;
+}
+
+.menu li:nth-child(4) a {
+  margin-right: 0;
+}
+
+.socialLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.socialLinks li:nth-child(1), .socialLinks li:nth-child(2) {
+  margin-right: 16px;
+}
+/*# sourceMappingURL=Footer.module.css.map */

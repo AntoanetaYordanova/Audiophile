@@ -1,0 +1,52 @@
+@import '../../../public/styles/core';
+
+footer {
+    background: $secnodary-dark-color;
+}
+
+.footerWrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 75px;
+}
+
+.leftSection, .rightSection {
+    width: 50%;
+}
+
+.logoWrapper {
+    margin-bottom: 36px;
+}
+
+.logoWrapper img {
+    padding-top: 14px;
+}
+
+.footerText {
+    @include body;
+    margin-bottom: 56px;
+}
+
+.copyright, .footerText {
+    color: #878787;
+    margin-bottom: 48px;
+}
+
+.menu {
+    @include menu;
+    justify-content: end;
+    margin-bottom: 105px;
+    li:nth-child(4) a {
+        margin-right: 0;
+    }
+}
+
+.socialLinks {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.socialLinks li:nth-child(1), .socialLinks li:nth-child(2) {
+    margin-right: 16px;
+}
