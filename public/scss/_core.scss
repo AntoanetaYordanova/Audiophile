@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+$main-dark-color : #000;
+$secnodary-dark-color : #101010;
+$accent-gray-dark: #f1f1f1;
+$accent-gray-light: #fafafa;
+$accent-orange-dark: #d87d4a;
+$accent-orange-light: #fbaf85;
+
+@mixin h1 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    font-size: 56px;
+    text-transform: uppercase;
+    line-height: 58px;
+    letter-spacing: 2px;
+}
+
+@mixin h2 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 44px;
+    letter-spacing: 1,5px;
+}
+
+@mixin h3 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    text-transform: uppercase;
+    line-height: 36px;
+    letter-spacing: 1,15px;
+}
+
+@mixin h4 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    text-transform: uppercase;
+    line-height: 38px;
+    letter-spacing: 2px;
+}
+
+@mixin h5 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 33px;
+    letter-spacing: 1,7px;
+}
+
+@mixin h6 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 24px;
+    letter-spacing: 1,3px;
+}
+
+@mixin overline {
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 19px;
+    letter-spacing: 10px;
+}
+
+@mixin sub-title {
+    font-family: 'Manrope', sans-serif;
+    font-style: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+@mixin body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+}
