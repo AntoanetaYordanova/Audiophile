@@ -20,8 +20,8 @@ const Header = () => {
                         <li><Link to="earphones">Earphones</Link></li>
                     </ul>
                 </nav>
-                <section className="cart">
-                    <img src="./images/shared/desktop/icon-cart.svg" alt="" />
+                <section className={styles.cart}>
+                    <img src="./images/shared/desktop/icon-cart.svg" alt="cart-img" />
                 </section>
             </div>
         </header>

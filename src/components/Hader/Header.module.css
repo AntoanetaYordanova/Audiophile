@@ -13,6 +13,9 @@ header {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 0;
 }
 
 .nav {
@@ -29,5 +32,19 @@ header {
 .nav a {
   color: #fff;
   margin-right: 34px;
+}
+
+.logo, .cart {
+  position: relative;
+}
+
+.logo img {
+  position: absolute;
+  top: -17px;
+}
+
+.cart img {
+  position: absolute;
+  top: -16px;
 }
 /*# sourceMappingURL=Header.module.css.map */
