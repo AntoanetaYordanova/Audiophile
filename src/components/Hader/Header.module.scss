@@ -1,0 +1,17 @@
+@import '../../../public/styles/core';
+
+header {
+    background: $main-dark-color;
+}
+
+.headerWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline
+}
+
+.nav {
+    @include menu;
+}
+
+
