@@ -172,7 +172,7 @@ main {
   padding: 150px 100px;
 }
 
-.zx7Speakers h4 {
+.zx7Speakers h4, .earphonesSectionContent h4 {
   font-weight: bold;
   font-size: 28px;
   text-transform: uppercase;
@@ -192,5 +192,51 @@ main {
 
 .zx7Speakers a:hover {
   background: #4C4C4C;
+}
+
+.earphonesSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+}
+
+.imageWrapper {
+  background-image: url("../../../../public/images/home/desktop/image-earphones-yx1.jpg");
+  background-size: cover;
+}
+
+.imageWrapper, .earphonesSectionContent {
+  width: 40%;
+}
+
+.earphonesSectionContent {
+  background: #F1F1F1;
+}
+
+.earphonesSection h4 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.earphonesSectionContent a {
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1px;
+  padding: 15px 30px;
+}
+
+.earphonesSectionContent a:hover {
+  background: #4C4C4C;
+}
+
+.earphonesSectionContent {
+  padding: 100px 200px 100px 95px;
 }
 /*# sourceMappingURL=HomeMain.module.css.map */

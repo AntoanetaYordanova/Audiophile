@@ -72,7 +72,7 @@ main {
     padding: 150px 100px
 }
 
-.zx7Speakers h4 {
+.zx7Speakers h4, .earphonesSectionContent h4  {
     @include h4;
     margin-bottom: 30px
 }
@@ -80,3 +80,35 @@ main {
 .zx7Speakers a {
     @include buttonBlack;
 }
+
+.earphonesSection {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.imageWrapper {
+    background-image: url('../../../../public/images/home/desktop/image-earphones-yx1.jpg');
+    background-size: cover  ;
+}
+
+.imageWrapper, .earphonesSectionContent {
+    width: 40%;
+}
+
+.earphonesSectionContent {
+    background: #F1F1F1;
+}
+
+.earphonesSection h4 {
+    width: fit-content
+}
+
+.earphonesSectionContent a{
+    @include buttonBlack;
+}
+
+.earphonesSectionContent {
+    padding: 100px 200px 100px 95px;
+}       
+

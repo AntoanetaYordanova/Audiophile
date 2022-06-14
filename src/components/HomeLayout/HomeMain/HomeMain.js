@@ -87,6 +87,15 @@ const HomeMain = () => {
                     <Link to="#">See Product</Link>
                 </section>
             </section>
+            <section className={styles.earphonesSection}>
+                <div className={styles.imageWrapper}>
+                    
+                </div>
+                <section className={styles.earphonesSectionContent}>
+                    <h4>YX1 earphones</h4>
+                    <Link to="#">See Products</Link>
+                </section>
+            </section>
         </main>
     );
 };
