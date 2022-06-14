@@ -70,12 +70,21 @@ const HomeMain = () => {
                     </div>
                 </section>
                 <section className={styles.zx9SpeakerSectionContent}>
-                    <h1>ZX9 <br/> speaker</h1>
+                    <h1>
+                        ZX9 <br /> speaker
+                    </h1>
                     <p>
-                        Upgrade to premium speakers that are <br/> phenomenally built
-                        to deliver truly remarkable <br/> sound.
+                        Upgrade to premium speakers that are <br /> phenomenally
+                        built to deliver truly remarkable <br /> sound.
                     </p>
                     <Link to="#">See product</Link>
+                </section>
+            </section>
+            <div className={styles.speakerHover}></div>
+            <section className={styles.zx7Speakers}>
+                <section className={styles.zx7SpeakersContent}>
+                    <h4>ZX7 speaker</h4>
+                    <Link to="#">See Product</Link>
                 </section>
             </section>
         </main>

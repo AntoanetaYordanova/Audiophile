@@ -14,7 +14,7 @@ main {
 }
 
 .productsMenu {
-  margin: 95px 40px;
+  margin: 95px 0px;
 }
 
 .productsMenu .productsMenuProduct {
@@ -100,11 +100,13 @@ main {
 .zx9SpeakerSection {
   background: #d87d4a;
   background-image: url("../../../../public/images/home/desktop/pattern-circles.svg");
-  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   height: 560px;
+  border-radius: 11px;
+  background-position: -156px 44px;
+  background-repeat: no-repeat;
 }
 
 .zxImgSection, .zx9SpeakerSectionContent {
@@ -117,6 +119,8 @@ main {
 
 .zxImgSection img {
   width: 63%;
+  position: relative;
+  z-index: 0;
 }
 
 .zxImgWrapper {
@@ -147,6 +151,46 @@ main {
 }
 
 .zx9SpeakerSectionContent a:hover {
+  background: #4C4C4C;
+}
+
+.speakerHover {
+  width: 100%;
+  height: 50px;
+  position: relative;
+  z-index: 2;
+  background: #fff;
+}
+
+.zx7Speakers {
+  background-image: url("../../../../public/images/home/desktop/image-speaker-zx7.jpg");
+  width: 100%;
+  height: 420px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 11px;
+  padding: 150px 100px;
+}
+
+.zx7Speakers h4 {
+  font-weight: bold;
+  font-size: 28px;
+  text-transform: uppercase;
+  line-height: 38px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+.zx7Speakers a {
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1px;
+  padding: 15px 30px;
+}
+
+.zx7Speakers a:hover {
   background: #4C4C4C;
 }
 /*# sourceMappingURL=HomeMain.module.css.map */
