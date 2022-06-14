@@ -6,22 +6,22 @@ const HomeMain = () => {
         <main>
             <section className={styles.productsMenu}>
                 <section className={styles.productsMenuProduct}>
-                        <div className={styles.productImgWrapper}>
+                    <div className={styles.productImgWrapper}>
+                        <img
+                            src="./images/shared/desktop/image-category-thumbnail-headphones.png"
+                            alt=""
+                        />
+                    </div>
+                    <div className={styles.menuBottomWrapper}>
+                        <p>Headhpones</p>
+                        <div>
+                            <Link to="#">Shop</Link>
                             <img
-                                src="./images/shared/desktop/image-category-thumbnail-headphones.png"
+                                src="./images/shared/desktop/icon-arrow-right.svg"
                                 alt=""
                             />
                         </div>
-                        <div className={styles.menuBottomWrapper}>
-                            <p>Headhpones</p>
-                            <div>
-                                <Link to="#">Shop</Link>
-                                <img
-                                    src="./images/shared/desktop/icon-arrow-right.svg"
-                                    alt=""
-                                />
-                            </div>
-                        </div>
+                    </div>
                 </section>
                 <section className={styles.productsMenuProduct}>
                     <div className={styles.productImgWrapper}>
@@ -58,6 +58,24 @@ const HomeMain = () => {
                             />
                         </div>
                     </div>
+                </section>
+            </section>
+            <section className={styles.zx9SpeakerSection}>
+                <section className={styles.zxImgSection}>
+                    <div className={styles.zxImgWrapper}>
+                        <img
+                            src="./images/home/desktop/image-speaker-zx9.png"
+                            alt="x9-speaker-img"
+                        />
+                    </div>
+                </section>
+                <section className={styles.zx9SpeakerSectionContent}>
+                    <h1>ZX9 <br/> speaker</h1>
+                    <p>
+                        Upgrade to premium speakers that are <br/> phenomenally built
+                        to deliver truly remarkable <br/> sound.
+                    </p>
+                    <Link to="#">See product</Link>
                 </section>
             </section>
         </main>

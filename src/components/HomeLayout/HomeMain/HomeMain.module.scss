@@ -8,3 +8,44 @@ main {
 .productsMenu {
     @include productsMenu;
 }
+
+.zx9SpeakerSection {
+    background: $accent-orange-dark;
+    background-image: url('../../../../public/images/home/desktop/pattern-circles.svg');
+    background-size: cover;
+    display: flex;
+    height: 560px;
+}
+
+.zxImgSection, .zx9SpeakerSectionContent {
+    width: 50%;
+}
+
+.zxImgSection {
+    position: relative;
+}
+
+.zxImgSection img {
+    width: 63%;
+}
+
+.zxImgWrapper {
+    position: absolute;
+    bottom: -16px;
+    left: 117px;
+    overflow: hidden;
+}
+
+.zx9SpeakerSectionContent {
+    margin: auto;
+}
+
+.zx9SpeakerSectionContent p {
+    @include body;
+    color: #F5DFD2;
+    margin: 20px 0 40px 0;
+}
+
+.zx9SpeakerSectionContent a{
+    @include buttonBlack;
+}

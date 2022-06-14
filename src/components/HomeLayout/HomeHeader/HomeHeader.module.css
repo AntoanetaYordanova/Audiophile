@@ -40,6 +40,10 @@ header {
   margin-right: 34px;
 }
 
+.nav a:hover {
+  color: #d87d4a;
+}
+
 .logo, .cart {
   position: relative;
 }

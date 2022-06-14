@@ -96,4 +96,57 @@ main {
 .productsMenu .menuBottomWrapper a:hover {
   color: #d87d4a;
 }
+
+.zx9SpeakerSection {
+  background: #d87d4a;
+  background-image: url("../../../../public/images/home/desktop/pattern-circles.svg");
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 560px;
+}
+
+.zxImgSection, .zx9SpeakerSectionContent {
+  width: 50%;
+}
+
+.zxImgSection {
+  position: relative;
+}
+
+.zxImgSection img {
+  width: 63%;
+}
+
+.zxImgWrapper {
+  position: absolute;
+  bottom: -16px;
+  left: 117px;
+  overflow: hidden;
+}
+
+.zx9SpeakerSectionContent {
+  margin: auto;
+}
+
+.zx9SpeakerSectionContent p {
+  font-size: 15px;
+  line-height: 25px;
+  color: #F5DFD2;
+  margin: 20px 0 40px 0;
+}
+
+.zx9SpeakerSectionContent a {
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1px;
+  padding: 15px 30px;
+}
+
+.zx9SpeakerSectionContent a:hover {
+  background: #4C4C4C;
+}
 /*# sourceMappingURL=HomeMain.module.css.map */
