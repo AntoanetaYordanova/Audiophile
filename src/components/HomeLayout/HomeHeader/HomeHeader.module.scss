@@ -1,0 +1,83 @@
+@import '../../../../public/styles/core';
+
+
+
+header {
+    background-image: url('../../../../public/images/home/desktop/image-hero.jpg');
+    background-position: 0px -150px;
+    background-size: cover;
+}
+
+.headerWrapper{
+    width: $wrapper-width;
+    margin: 0 auto;
+    padding-bottom: 158px;
+}
+
+.navWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 32px 0;
+}
+
+.nav {
+    @include menu;
+}
+
+.logo, .cart {
+    position: relative;
+}
+
+.logo img {
+    position: absolute;
+    top: -17px;
+}
+
+.cart img {
+    position: absolute;
+    top: -16px;
+    right: 0;
+}
+
+.overline {
+    @include overline;
+    margin: 225px 0 24px 0;
+}
+
+h1 {
+    @include h1;
+}
+
+.heroSection {
+    border-top: $header-border;
+}
+
+.heroSection p.text {
+    @include body;
+    color: #C4C4C4;
+    margin: 24px 0 40px 0;
+}
+
+.heroSection a {
+    @include buttonOrange;  
+}
+
+@media screen and(max-width: 2000px) {
+    header {
+        background-position: 0px -110px;
+    }
+}
+
+@media screen and(max-width: 1900px) {
+    header {
+        background-position: 0px -60px;
+    }
+}
+
+@media screen and(max-width: 1630px) {
+    header {
+        background-position: 0px -20px;
+    }
+}
+

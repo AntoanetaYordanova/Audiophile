@@ -1,0 +1,10 @@
+@import '../../../../public/styles/core';
+
+main {
+    width: $wrapper-width;
+    margin: 0 auto;
+}
+
+.productsMenu {
+    @include productsMenu;
+}

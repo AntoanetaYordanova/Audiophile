@@ -7,6 +7,10 @@ $accent-gray-light: #fafafa;
 $accent-orange-dark: #d87d4a;
 $accent-orange-light: #fbaf85;
 $font : 'Manrope', sans-serif;
+$body-color-dark: #7B7B7B;
+$body-color-light: #878787;
+$wrapper-width: 75%;
+$header-border: #434343 solid 1px;;
 
 @mixin h1 {
     font-weight: bold;
@@ -14,6 +18,7 @@ $font : 'Manrope', sans-serif;
     text-transform: uppercase;
     line-height: 58px;
     letter-spacing: 2px;
+    color: #fff;
 }
 
 @mixin h2 {
@@ -57,6 +62,7 @@ $font : 'Manrope', sans-serif;
 }
 
 @mixin overline {
+    color: $body-color-light;
     font-size: 14px;
     text-transform: uppercase;
     line-height: 19px;
@@ -90,3 +96,85 @@ $font : 'Manrope', sans-serif;
     }
 }
 
+@mixin buttonOrange {
+    color: #fff;
+    background: #D87D4A;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 15px 30px;
+    &:hover{
+        background: #FBAF84;
+    }
+}
+
+@mixin productsMenu {
+    display: flex;
+    justify-content: space-between;
+
+    &{
+        margin: 95px 40px;
+    }
+
+    .productsMenuProduct {
+        background: #F1F1F1;
+        border-radius: 8px;
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .productImgWrapper {
+        width: 125px;
+        margin: 10px 0;
+    }
+
+    .productsMenuProduct:nth-child(1) .productImgWrapper {
+        margin: 8px 0;
+    }
+
+    .productsMenuProduct:nth-child(3) .productImgWrapper {
+        margin: 14px 0;
+    }
+
+    .productImgWrapper img {
+        width: 100%;
+    }
+
+    .menuBottomWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 22px;
+    }
+
+    .menuBottomWrapper div {
+        display: flex;
+        align-items: center;
+    }
+
+    .menuBottomWrapper div img {
+        height: 80%;
+    }
+
+    .menuBottomWrapper p {
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 1.29px;
+        margin-bottom: 17px;
+    }
+
+    .menuBottomWrapper a {
+        color: #787878;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: bold;
+        &:hover {
+            color: $accent-orange-dark;
+        }
+        margin-right: 10px;
+    }
+}

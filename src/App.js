@@ -1,18 +1,21 @@
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import Home from "./components/Home/Home";
+import HomeLayout from "./components/HomeLayout/HomeLayout";
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div>
-      <Header/>
+      {/* <Header/>
       <main>
         <Routes>
           <Route path="/" element={<Home/>}></Route>
         </Routes>
       </main>
-      <Footer/>
+      <Footer/> */}
+      <Routes>
+        <Route path="/" element={<HomeLayout/>}/>
+      </Routes>
     </div>
   );
 }
