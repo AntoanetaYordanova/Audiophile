@@ -162,17 +162,38 @@ main {
   background: #fff;
 }
 
-.zx7Speakers {
+.gridWrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.gridWrapper .zx7Speakers {
   background-image: url("../../../../public/images/home/desktop/image-speaker-zx7.jpg");
-  width: 100%;
+  grid-column: span 2;
   height: 420px;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 11px;
-  padding: 150px 100px;
+  padding: 12% 9%;
+  margin-bottom: 6%;
 }
 
-.zx7Speakers h4, .earphonesSectionContent h4 {
+.gridWrapper .zx7Speakers a {
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1px;
+  padding: 15px 30px;
+}
+
+.gridWrapper .zx7Speakers a:hover {
+  background: #4C4C4C;
+}
+
+.gridWrapper .zx7Speakers h4, .gridWrapper .earphonesSectionContent h4 {
   font-weight: bold;
   font-size: 28px;
   text-transform: uppercase;
@@ -181,7 +202,26 @@ main {
   margin-bottom: 30px;
 }
 
-.zx7Speakers a {
+.gridWrapper .imageWrapper {
+  margin-right: 30px;
+}
+
+.gridWrapper .imageWrapper img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.gridWrapper .imageWrapper img, .gridWrapper .earphonesSectionContent {
+  border-radius: 11px;
+}
+
+.gridWrapper .earphonesSectionContent {
+  background: #F1F1F1;
+  padding: 18% 16%;
+}
+
+.gridWrapper .earphonesSectionContent a {
   background: #000;
   color: #fff;
   text-transform: uppercase;
@@ -190,53 +230,46 @@ main {
   padding: 15px 30px;
 }
 
-.zx7Speakers a:hover {
+.gridWrapper .earphonesSectionContent a:hover {
   background: #4C4C4C;
 }
 
-.earphonesSection {
+.descriptionSection {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-top: 50px;
+  margin: 18% 0 18% 0;
 }
 
-.imageWrapper {
-  background-image: url("../../../../public/images/home/desktop/image-earphones-yx1.jpg");
-  background-size: cover;
+.descriptionSection .descriptionSectionText, .descriptionSection .descriptionSectionImg {
+  width: 50%;
 }
 
-.imageWrapper, .earphonesSectionContent {
-  width: 40%;
+.descriptionSection .descriptionSectionText {
+  margin: auto 11% auto 0;
 }
 
-.earphonesSectionContent {
-  background: #F1F1F1;
-}
-
-.earphonesSection h4 {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
-.earphonesSectionContent a {
-  background: #000;
-  color: #fff;
+.descriptionSection .descriptionSectionText h2 {
+  font-weight: bold;
+  font-size: 40px;
   text-transform: uppercase;
-  font-size: 13px;
-  letter-spacing: 1px;
-  padding: 15px 30px;
+  line-height: 44px;
+  letter-spacing: 1,5px;
+  margin-bottom: 7%;
 }
 
-.earphonesSectionContent a:hover {
-  background: #4C4C4C;
+.descriptionSection .descriptionSectionText p {
+  font-size: 15px;
+  line-height: 25px;
+  color: #7D7D7D;
 }
 
-.earphonesSectionContent {
-  padding: 100px 200px 100px 95px;
+.descriptionSection .descriptionSectionText span {
+  color: #d87d4a;
+}
+
+.descriptionSection .descriptionSectionImg img {
+  width: 100%;
+  border-radius: 11px;
 }
 /*# sourceMappingURL=HomeMain.module.css.map */
