@@ -107,37 +107,4 @@ main {
 }
 
 
-.descriptionSection {
-    display: flex;
-    margin: 18% 0 18% 0;
-
-    .descriptionSectionText, .descriptionSectionImg {
-        width: 50%;
-    }
-    
-    .descriptionSectionText {
-        margin: auto 11% auto 0;
-
-        h2 {
-            @include h2;
-            margin-bottom: 7%;
-        }
-
-        p {
-            @include body;
-            color: $body-color-dark;
-        }
-
-        span {
-            color: $accent-orange-dark;
-        }
-    }
-     
-    .descriptionSectionImg img {
-        width: 100%;
-        border-radius: $radius;
-    }
-}
-
-
 

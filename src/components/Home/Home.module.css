@@ -144,43 +144,4 @@ main {
   background: #000;
   color: #fff;
 }
-
-.descriptionSection {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 18% 0 18% 0;
-}
-
-.descriptionSection .descriptionSectionText, .descriptionSection .descriptionSectionImg {
-  width: 50%;
-}
-
-.descriptionSection .descriptionSectionText {
-  margin: auto 11% auto 0;
-}
-
-.descriptionSection .descriptionSectionText h2 {
-  font-weight: bold;
-  font-size: 40px;
-  text-transform: uppercase;
-  line-height: 44px;
-  letter-spacing: 1,5px;
-  margin-bottom: 7%;
-}
-
-.descriptionSection .descriptionSectionText p {
-  font-size: 15px;
-  line-height: 25px;
-  color: #7D7D7D;
-}
-
-.descriptionSection .descriptionSectionText span {
-  color: #d87d4a;
-}
-
-.descriptionSection .descriptionSectionImg img {
-  width: 100%;
-  border-radius: 11px;
-}
 /*# sourceMappingURL=Home.module.css.map */
