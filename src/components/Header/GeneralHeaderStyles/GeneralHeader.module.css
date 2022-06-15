@@ -1,21 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
-header {
+header.generalHeader {
   background: #000;
-}
-
-.headerWrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-  width: 75%;
-  margin: 0 auto;
-  padding: 32px 0;
 }
 
 .nav {
@@ -52,4 +37,4 @@ header {
   top: -16px;
   right: 0;
 }
-/*# sourceMappingURL=Header.module.css.map */
+/*# sourceMappingURL=GeneralHeader.module.css.map */

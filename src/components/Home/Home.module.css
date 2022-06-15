@@ -99,7 +99,7 @@ main {
 
 .zx9SpeakerSection {
   background: #d87d4a;
-  background-image: url("../../../../public/images/home/desktop/pattern-circles.svg");
+  background-image: url("../../../public/images/home/desktop/pattern-circles.svg");
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -170,7 +170,7 @@ main {
 }
 
 .gridWrapper .zx7Speakers {
-  background-image: url("../../../../public/images/home/desktop/image-speaker-zx7.jpg");
+  background-image: url("../../../public/images/home/desktop/image-speaker-zx7.jpg");
   grid-column: span 2;
   height: 420px;
   background-size: cover;
@@ -272,4 +272,4 @@ main {
   width: 100%;
   border-radius: 11px;
 }
-/*# sourceMappingURL=HomeMain.module.css.map */
+/*# sourceMappingURL=Home.module.css.map */

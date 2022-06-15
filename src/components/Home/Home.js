@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
-import styles from './HomeMain.module.css';
+import styles from './Home.module.css';
 
-const HomeMain = () => {
+const Home = () => {
     return (
-        <main>
-            <section className={styles.productsMenu}>
+      <>
+       <section className={styles.productsMenu}>
                 <section className={styles.productsMenuProduct}>
                     <div className={styles.productImgWrapper}>
                         <img
@@ -118,9 +118,8 @@ const HomeMain = () => {
                 <div className={styles.descriptionSectionImg}>
                     <img src="./images/shared/desktop/image-best-gear.jpg" alt="man-listening-music" />
                 </div>
-            </section>
-        </main>
+            </section></>
     );
 };
 
-export default HomeMain;
+export default Home;

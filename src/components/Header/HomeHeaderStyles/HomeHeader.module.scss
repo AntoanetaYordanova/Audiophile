@@ -1,7 +1,5 @@
 @import '../../../../public/styles/core';
 
-
-
 header {
     background-image: url('../../../../public/images/home/desktop/image-hero.jpg');
     background-position: 0px -150px;
@@ -23,21 +21,6 @@ header {
 
 .nav {
     @include menu;
-}
-
-.logo, .cart {
-    position: relative;
-}
-
-.logo img {
-    position: absolute;
-    top: -17px;
-}
-
-.cart img {
-    position: absolute;
-    top: -16px;
-    right: 0;
 }
 
 .overline {

@@ -44,21 +44,6 @@ header {
   color: #d87d4a;
 }
 
-.logo, .cart {
-  position: relative;
-}
-
-.logo img {
-  position: absolute;
-  top: -17px;
-}
-
-.cart img {
-  position: absolute;
-  top: -16px;
-  right: 0;
-}
-
 .overline {
   color: #878787;
   font-size: 14px;
