@@ -1,0 +1,19 @@
+@import '../../../../public/styles/core';
+
+
+.headerSection {
+    @include catalogHeader;
+}
+
+.mainSection {
+    @include catalogGridSection;
+
+    .imageWrapper:nth-child(5) {
+        margin-bottom: 0;
+    }
+}
+
+.wrapper {
+    width: $wrapper-width;
+    margin: 0 auto;
+}

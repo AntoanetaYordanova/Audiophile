@@ -1,27 +1,12 @@
 @import '../../../../public/styles/core';
 
-header {
+header.homeHeader {
     background-image: url('../../../../public/images/home/desktop/image-hero.jpg');
     background-position: 0px -40px;
     background-size: cover;
 }
 
-.headerWrapper{
-    width: $wrapper-width;
-    margin: 0 auto;
-    padding: 5% 0 16% 0;
-}
 
-.navWrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    padding-bottom: 32px;
-}
-
-.nav {
-    @include menu;
-}
 
 .overline {
     @include overline;

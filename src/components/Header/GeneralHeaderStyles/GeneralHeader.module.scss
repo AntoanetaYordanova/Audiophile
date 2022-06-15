@@ -2,34 +2,7 @@
 
 header.generalHeader {
     background: $main-dark-color;   
+    .headerWrapperGeneral {
+        padding-bottom: 0;
+    }
 }
-
-.headerWrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    width: $wrapper-width;
-    margin: 0 auto;
-    padding: 32px 0;
-}
-
-.nav {
-    @include menu;
-}
-
-.logo, .cart {
-    position: relative;
-}
-
-.logo img {
-    position: absolute;
-    top: -17px;
-}
-
-.cart img {
-    position: absolute;
-    top: -16px;
-    right: 0;
-}
-
-

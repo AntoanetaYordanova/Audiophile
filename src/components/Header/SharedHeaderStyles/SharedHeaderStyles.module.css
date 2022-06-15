@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+.headerWrapper {
+  width: 75%;
+  margin: 0 auto;
+  padding: 5% 0 16% 0;
+}
+
+.navWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  padding-bottom: 32px;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 25px;
+  letter-spacing: 2px;
+}
+
+.nav a {
+  color: #fff;
+  margin-right: 34px;
+}
+
+.nav a:hover {
+  color: #d87d4a;
+}
+/*# sourceMappingURL=SharedHeaderStyles.module.css.map */

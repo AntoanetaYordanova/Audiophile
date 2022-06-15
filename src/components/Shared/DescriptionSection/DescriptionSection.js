@@ -20,7 +20,7 @@ const DescriptionSection = () => {
                 </section>
                 <div className={styles.descriptionSectionImg}>
                     <img
-                        src="./images/shared/desktop/image-best-gear.jpg"
+                        src="/images/shared/desktop/image-best-gear.jpg"
                         alt="man-listening-music"
                     />
                 </div>

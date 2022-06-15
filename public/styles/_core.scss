@@ -100,6 +100,75 @@ $radius: 11px;
     }
 }
 
+@mixin catalogHeader {
+    width: 100%;
+    background: #000;
+    text-align: center;
+    color: #fff;
+
+    h2 {
+        @include h2;
+        margin: 0;
+        padding: 10% 0 10%;
+    }
+
+    .headerWrapper {
+        width: $wrapper-width;
+        margin: 0 auto;
+        border-top: $header-border;
+    }
+}
+
+@mixin catalogGridSection {
+    width: $wrapper-width;
+    margin: 9% auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .imageWrapper {
+        margin-bottom: 20%;
+
+        img {
+            width: 100%;
+            border-radius: $radius;
+        }
+    }
+
+    .description:nth-child(even) {
+        padding: 17% 0 0 20%;
+    }
+
+    .description:nth-child(odd) {
+        padding: 17% 20% 0 0; 
+    }
+
+    .description {
+
+        h5 {
+            @include overline;
+            color: $accent-orange-dark;
+            font-weight: 400;
+        }
+
+        h2 {
+            @include h2;
+            margin: 3% 0 6% 0;
+        }
+
+        p {
+            @include body;
+            color: $body-color-dark;
+            margin-bottom: 14%
+        }
+
+        a {
+            @include buttonOrange;
+        }
+    }
+
+
+}
+
 @mixin buttonOrange {
     color: #fff;
     background: #D87D4A;
@@ -144,7 +213,7 @@ $radius: 11px;
     justify-content: space-between;
 
     &{
-        margin: 95px 0px;
+        margin-bottom: 9%;
     }
 
     .productsMenuProduct {

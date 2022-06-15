@@ -3,53 +3,7 @@ header.generalHeader {
   background: #000;
 }
 
-.headerWrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-  width: 75%;
-  margin: 0 auto;
-  padding: 32px 0;
-}
-
-.nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-transform: uppercase;
-  font-size: 13px;
-  font-weight: bold;
-  line-height: 25px;
-  letter-spacing: 2px;
-}
-
-.nav a {
-  color: #fff;
-  margin-right: 34px;
-}
-
-.nav a:hover {
-  color: #d87d4a;
-}
-
-.logo, .cart {
-  position: relative;
-}
-
-.logo img {
-  position: absolute;
-  top: -17px;
-}
-
-.cart img {
-  position: absolute;
-  top: -16px;
-  right: 0;
+header.generalHeader .headerWrapperGeneral {
+  padding-bottom: 0;
 }
 /*# sourceMappingURL=GeneralHeader.module.css.map */

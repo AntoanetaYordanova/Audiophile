@@ -7,7 +7,7 @@ const CatalogMenu = () => {
                 <section className={styles.productsMenuProduct}>
                     <div className={styles.productImgWrapper}>
                         <img
-                            src="./images/shared/desktop/image-category-thumbnail-headphones.png"
+                            src="/images/shared/desktop/image-category-thumbnail-headphones.png"
                             alt=""
                         />
                     </div>
@@ -16,7 +16,7 @@ const CatalogMenu = () => {
                         <div>
                             <Link to="#">Shop</Link>
                             <img
-                                src="./images/shared/desktop/icon-arrow-right.svg"
+                                src="/images/shared/desktop/icon-arrow-right.svg"
                                 alt=""
                             />
                         </div>
@@ -25,7 +25,7 @@ const CatalogMenu = () => {
                 <section className={styles.productsMenuProduct}>
                     <div className={styles.productImgWrapper}>
                         <img
-                            src="./images/shared/desktop/image-category-thumbnail-speakers.png"
+                            src="/images/shared/desktop/image-category-thumbnail-speakers.png"
                             alt=""
                         />
                     </div>
@@ -34,7 +34,7 @@ const CatalogMenu = () => {
                         <div>
                             <Link to="#">Shop</Link>
                             <img
-                                src="./images/shared/desktop/icon-arrow-right.svg"
+                                src="/images/shared/desktop/icon-arrow-right.svg"
                                 alt=""
                             />
                         </div>
@@ -43,7 +43,7 @@ const CatalogMenu = () => {
                 <section className={styles.productsMenuProduct}>
                     <div className={styles.productImgWrapper}>
                         <img
-                            src="./images/shared/desktop/image-category-thumbnail-earphones.png"
+                            src="/images/shared/desktop/image-category-thumbnail-earphones.png"
                             alt=""
                         />
                     </div>
@@ -52,7 +52,7 @@ const CatalogMenu = () => {
                         <div>
                             <Link to="#">Shop</Link>
                             <img
-                                src="./images/shared/desktop/icon-arrow-right.svg"
+                                src="/images/shared/desktop/icon-arrow-right.svg"
                                 alt=""
                             />
                         </div>

@@ -11,7 +11,7 @@ const Home = () => {
                 <section className={styles.zxImgSection}>
                     <div className={styles.zxImgWrapper}>
                         <img
-                            src="./images/home/desktop/image-speaker-zx9.png"
+                            src="/images/home/desktop/image-speaker-zx9.png"
                             alt="x9-speaker-img"
                         />
                     </div>
@@ -37,7 +37,7 @@ const Home = () => {
                 </section>
                 <div className={styles.imageWrapper}>
                     <img
-                        src="./images/home/desktop/image-earphones-yx1.jpg"
+                        src="/images/home/desktop/image-earphones-yx1.jpg"
                         alt="earphones-img"
                     />
                 </div>
