@@ -181,8 +181,9 @@ main {
 }
 
 .gridWrapper .zx7Speakers a {
-  background: #000;
-  color: #fff;
+  background: #fff;
+  border: 2px solid #000;
+  color: #000;
   text-transform: uppercase;
   font-size: 13px;
   letter-spacing: 1px;
@@ -190,7 +191,8 @@ main {
 }
 
 .gridWrapper .zx7Speakers a:hover {
-  background: #4C4C4C;
+  background: #000;
+  color: #fff;
 }
 
 .gridWrapper .zx7Speakers h4, .gridWrapper .earphonesSectionContent h4 {
@@ -222,8 +224,9 @@ main {
 }
 
 .gridWrapper .earphonesSectionContent a {
-  background: #000;
-  color: #fff;
+  background: #fff;
+  border: 2px solid #000;
+  color: #000;
   text-transform: uppercase;
   font-size: 13px;
   letter-spacing: 1px;
@@ -231,7 +234,8 @@ main {
 }
 
 .gridWrapper .earphonesSectionContent a:hover {
-  background: #4C4C4C;
+  background: #000;
+  color: #fff;
 }
 
 .descriptionSection {

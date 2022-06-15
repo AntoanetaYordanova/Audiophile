@@ -3,6 +3,21 @@ header.generalHeader {
   background: #000;
 }
 
+.headerWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  width: 75%;
+  margin: 0 auto;
+  padding: 32px 0;
+}
+
 .nav {
   display: -webkit-box;
   display: -ms-flexbox;

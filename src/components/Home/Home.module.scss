@@ -77,7 +77,7 @@ main {
         margin-bottom: 6%;
         
         a {
-            @include buttonBlack;
+            @include buttonWhite;
         }
     }
     
@@ -104,7 +104,7 @@ main {
         padding: 18% 16%;
     
         a{
-            @include buttonBlack;
+            @include buttonWhite;
         }
     }    
     
