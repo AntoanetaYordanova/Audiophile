@@ -5,10 +5,6 @@ main {
     margin: 0 auto;
 }
 
-.productsMenu {
-    @include productsMenu;
-}
-
 .zx9SpeakerSection {
     background: $accent-orange-dark;
     background-image: url('../../../public/images/home/desktop/pattern-circles.svg');

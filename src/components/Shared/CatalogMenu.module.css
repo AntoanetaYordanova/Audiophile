@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+.productsMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.productsMenu {
+  margin: 95px 0px;
+}
+
+.productsMenu .productsMenuProduct {
+  background: #F1F1F1;
+  border-radius: 8px;
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.productsMenu .productImgWrapper {
+  width: 125px;
+  margin: 10px 0;
+}
+
+.productsMenu .productsMenuProduct:nth-child(1) .productImgWrapper {
+  margin: 8px 0;
+}
+
+.productsMenu .productsMenuProduct:nth-child(3) .productImgWrapper {
+  margin: 14px 0;
+}
+
+.productsMenu .productImgWrapper img {
+  width: 100%;
+}
+
+.productsMenu .menuBottomWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 22px;
+}
+
+.productsMenu .menuBottomWrapper div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.productsMenu .menuBottomWrapper div img {
+  height: 80%;
+}
+
+.productsMenu .menuBottomWrapper p {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1.29px;
+  margin-bottom: 17px;
+}
+
+.productsMenu .menuBottomWrapper a {
+  color: #787878;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.productsMenu .menuBottomWrapper a:hover {
+  color: #d87d4a;
+}
+/*# sourceMappingURL=CatalogMenu.module.css.map */

@@ -1,65 +1,11 @@
 import { Link } from 'react-router-dom';
 import styles from './Home.module.css';
+import CatalogMenu from '../Shared/CatalogMenu';
 
 const Home = () => {
     return (
-      <>
-       <section className={styles.productsMenu}>
-                <section className={styles.productsMenuProduct}>
-                    <div className={styles.productImgWrapper}>
-                        <img
-                            src="./images/shared/desktop/image-category-thumbnail-headphones.png"
-                            alt=""
-                        />
-                    </div>
-                    <div className={styles.menuBottomWrapper}>
-                        <p>Headhpones</p>
-                        <div>
-                            <Link to="#">Shop</Link>
-                            <img
-                                src="./images/shared/desktop/icon-arrow-right.svg"
-                                alt=""
-                            />
-                        </div>
-                    </div>
-                </section>
-                <section className={styles.productsMenuProduct}>
-                    <div className={styles.productImgWrapper}>
-                        <img
-                            src="./images/shared/desktop/image-category-thumbnail-speakers.png"
-                            alt=""
-                        />
-                    </div>
-                    <div className={styles.menuBottomWrapper}>
-                        <p>Speakers</p>
-                        <div>
-                            <Link to="#">Shop</Link>
-                            <img
-                                src="./images/shared/desktop/icon-arrow-right.svg"
-                                alt=""
-                            />
-                        </div>
-                    </div>
-                </section>
-                <section className={styles.productsMenuProduct}>
-                    <div className={styles.productImgWrapper}>
-                        <img
-                            src="./images/shared/desktop/image-category-thumbnail-earphones.png"
-                            alt=""
-                        />
-                    </div>
-                    <div className={styles.menuBottomWrapper}>
-                        <p>Earphones</p>
-                        <div>
-                            <Link to="#">Shop</Link>
-                            <img
-                                src="./images/shared/desktop/icon-arrow-right.svg"
-                                alt=""
-                            />
-                        </div>
-                    </div>
-                </section>
-            </section>
+        <>
+            <CatalogMenu/>
             <section className={styles.zx9SpeakerSection}>
                 <section className={styles.zxImgSection}>
                     <div className={styles.zxImgWrapper}>
@@ -106,7 +52,7 @@ const Home = () => {
                     </h2>
                     <p>
                         Located at the heart of New York City, Audiophile is the
-                        premier  store for high end headphones, earphones,
+                        premier store for high end headphones, earphones,
                         speakers, and audio accessories. We have a large
                         showroom and luxury demonstration rooms available for
                         you to browse and experience a wide range of our
@@ -116,9 +62,13 @@ const Home = () => {
                     </p>
                 </section>
                 <div className={styles.descriptionSectionImg}>
-                    <img src="./images/shared/desktop/image-best-gear.jpg" alt="man-listening-music" />
+                    <img
+                        src="./images/shared/desktop/image-best-gear.jpg"
+                        alt="man-listening-music"
+                    />
                 </div>
-            </section></>
+            </section>
+        </>
     );
 };
 
