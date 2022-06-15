@@ -1,8 +1,12 @@
 @import '../../../public/styles/core';
 
-main {
+.wrapper {
     width: $wrapper-width;
     margin: 0 auto;
+}
+
+.catalogMenuWrapper {
+    margin: 10% 0;
 }
 
 .zx9SpeakerSection {

@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
-main {
+.wrapper {
   width: 75%;
   margin: 0 auto;
+}
+
+.catalogMenuWrapper {
+  margin: 10% 0;
 }
 
 .zx9SpeakerSection {

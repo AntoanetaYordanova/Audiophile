@@ -8,10 +8,6 @@
           justify-content: space-between;
 }
 
-.productsMenu {
-  margin-bottom: 9%;
-}
-
 .productsMenu .productsMenuProduct {
   background: #F1F1F1;
   border-radius: 8px;

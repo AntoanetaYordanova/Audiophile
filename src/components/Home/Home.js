@@ -5,8 +5,10 @@ import DescriptionSection from '../Shared/DescriptionSection/DescriptionSection'
 
 const Home = () => {
     return (
-        <>
-            <CatalogMenu/>
+        <div className={styles.wrapper}>
+            <div className={styles.catalogMenuWrapper}>
+                <CatalogMenu />
+            </div>
             <section className={styles.zx9SpeakerSection}>
                 <section className={styles.zxImgSection}>
                     <div className={styles.zxImgWrapper}>
@@ -46,8 +48,8 @@ const Home = () => {
                     <Link to="#">See Products</Link>
                 </section>
             </div>
-            <DescriptionSection/>
-        </>
+            <DescriptionSection />
+        </div>
     );
 };
 
