@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import styles from './HeadphonesCatalog.module.css';
+import styles from '../../../sharedCSS/catalog/Catalog.module.css';
 import CatalogMenu from '../../Shared/CatalogMenu/CatalogMenu';
 import DescriptionSection from '../../Shared/DescriptionSection/DescriptionSection';
 
