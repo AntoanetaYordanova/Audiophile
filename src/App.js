@@ -17,7 +17,7 @@ function App() {
                     <Route path="catalog">
                         <Route path='headphones' element={<HeadphonesCatalog/>}/>
                         <Route path='speakers' element={<SpeakersCatalog/>}/>
-                        <Route path='headphones' element={<EarphonesCatalog/>}/>
+                        <Route path='earphones' element={<EarphonesCatalog/>}/>
                     </Route>
                     <Route path='products'>
                         <Route path='x99-mark-2'/>
@@ -25,6 +25,7 @@ function App() {
                         <Route path='xx59'/>
                         <Route path='zx9-speaker'/>
                         <Route path='zx7-speaker'/>
+                        <Route path='zx7-earphones'/>
                     </Route>
                 </Routes>
             </main>

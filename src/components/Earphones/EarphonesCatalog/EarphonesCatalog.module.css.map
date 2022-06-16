@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,OAAO,CAAC,qGAAI;ADEZ,AAAA,aAAa,CAAC;EACV,UAAU,EAAE,OAAO;EACnB,aAAa,ECSR,IAAI;EDRT,OAAO,EAAE,YAAY;CAExB",
+    "sources": [
+        "EarphonesCatalog.module.scss",
+        "../../../../public/styles/_core.scss"
+    ],
+    "names": [],
+    "file": "EarphonesCatalog.module.css"
+}
