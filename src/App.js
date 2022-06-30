@@ -6,6 +6,7 @@ import HeadphonesCatalog from './components/Headphones/HeadphonesCatalog/Headpho
 import styles from './App.module.css';
 import SpeakersCatalog from './components/Speakers/SpeakersCatalog/SpeakersCatalog';
 import EarphonesCatalog from './components/Earphones/EarphonesCatalog/EarphonesCatalog';
+import XX99Mark from './components/Details/XX99Mark';
 
 function App() {
     return (
@@ -20,7 +21,7 @@ function App() {
                         <Route path='earphones' element={<EarphonesCatalog/>}/>
                     </Route>
                     <Route path='products'>
-                        <Route path='x99-mark-2'/>
+                        <Route path='x99-mark-2' element={<XX99Mark/>}/>
                         <Route path='xx99-mark-1'/>
                         <Route path='xx59'/>
                         <Route path='zx9-speaker'/>

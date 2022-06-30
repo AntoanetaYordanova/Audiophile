@@ -1,0 +1,10 @@
+@import '../../../public/styles/core';
+
+.mainContainer {
+    width: $wrapper-width;
+    margin: 4% auto;
+}
+
+.goBackBtn {
+    @include btnGoBack;    
+}

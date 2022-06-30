@@ -208,6 +208,19 @@ $radius: 11px;
     }
 }
 
+@mixin btnGoBack {
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    background: #fff;
+    color: #7D7D7D;
+    &:hover {
+        cursor: pointer;
+        color: #D87D4A;
+    }
+}
+
+
 @mixin productsMenu {
     display: flex;
     justify-content: space-between;
