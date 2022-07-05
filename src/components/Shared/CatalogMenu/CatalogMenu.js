@@ -14,7 +14,7 @@ const CatalogMenu = () => {
                     <div className={styles.menuBottomWrapper}>
                         <p>Headhpones</p>
                         <div>
-                            <Link to="#">Shop</Link>
+                            <Link to="/catalog/headphones">Shop</Link>
                             <img
                                 src="/images/shared/desktop/icon-arrow-right.svg"
                                 alt=""
@@ -32,7 +32,7 @@ const CatalogMenu = () => {
                     <div className={styles.menuBottomWrapper}>
                         <p>Speakers</p>
                         <div>
-                            <Link to="#">Shop</Link>
+                            <Link to="/catalog/speakers">Shop</Link>
                             <img
                                 src="/images/shared/desktop/icon-arrow-right.svg"
                                 alt=""
@@ -50,7 +50,7 @@ const CatalogMenu = () => {
                     <div className={styles.menuBottomWrapper}>
                         <p>Earphones</p>
                         <div>
-                            <Link to="#">Shop</Link>
+                            <Link to="/catalog/earphones">Shop</Link>
                             <img
                                 src="/images/shared/desktop/icon-arrow-right.svg"
                                 alt=""
