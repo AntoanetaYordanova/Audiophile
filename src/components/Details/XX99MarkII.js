@@ -1,6 +1,6 @@
 import Template from './Template';
 
-const XX99Mark = () => {
+const XX99MarkII = () => {
     const title = 'xx99 mark II headphones';
     const mainPhoto =
         '/images/product-xx99-mark-two-headphones/desktop/image-product.jpg';
@@ -55,4 +55,4 @@ const XX99Mark = () => {
     );
 };
 
-export default XX99Mark;
+export default XX99MarkII;
